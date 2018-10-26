@@ -1,2 +1,2 @@
 # docker-tutorials
-docker configyrations and troubleshooting
+docker configurations and troubleshooting
