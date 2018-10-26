@@ -1,0 +1,6 @@
+#change the storage driver
+#update the kernal
+
+sed -i 's/overlay2/devicemapper/g' /etc/sysconfig/docker-storage
+sed -i 's/overlay2/devicemapper/g' /etc/sysconfig/docker-storage-setup
+systemctl restart docker
